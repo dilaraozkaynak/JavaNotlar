@@ -1,0 +1,14 @@
+package interfacesTekrar;
+
+public class CustomerManager {
+	private ICustomerDal customerDal;
+
+	public CustomerManager(ICustomerDal customerDal) {
+		this.customerDal = customerDal;
+	}
+
+	public void add() {
+		// burada iþ kodlarý yazýlýr.
+		customerDal.Add();
+	}
+}
